@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia | Error: {{Error|safe}}
+{% endblock %}
+
+{% block body %}
+    
+    <div class="main-container">
+        <div class="error-head">
+            <h1 class="error-txt">
+                Error : {{Error}}
+            </h1>
+        </div>
+    </div>
+
+{% endblock %}

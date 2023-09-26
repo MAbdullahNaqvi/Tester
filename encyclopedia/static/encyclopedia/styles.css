@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 90vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    
+}
+.error-head{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.error-txt{
+    color: red;
+    font-size: 4vw;
+    font-weight: 400;
+}
+.form-container{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.add_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 30px;
+}
+.title{
+  border: 1px solid;
+  width: 400px;
+}  
+.editor{
+    resize: none;
+    border: 1px solid;
+    overflow: scroll;
+    height: 400px;
+}
+.submit{
+    width: 100px;
+    background-color:dodgerblue ;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.submit:hover {
+    background-color:rgb(0, 104, 207) ;
+}
